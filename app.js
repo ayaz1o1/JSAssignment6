@@ -424,3 +424,16 @@ var date = new Date();
 alert(date);
 document.write(date);
 
+
+
+// 2. get month
+
+var date = new Date();
+document.write(date + "<br>");
+var month = date.getMonth();
+var monthArray = ["January" , "February" , "March" , "April" , " May" , "Jun" , "July" , "August" , "September" , "October" , "November" , "December"];
+alert(monthArray[month]);
+document.write("Current month is: " + monthArray[month]);
+
+
+

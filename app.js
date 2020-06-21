@@ -369,3 +369,19 @@ function   dicefun(){
   document.write("Random number between 1 -100 is: " + newNum);
 
 }
+
+
+// 7. user weight 
+
+var userweight = prompt("enter your weight");
+if (userweight % 1 == 0 ) {
+  userweight = parseInt(userweight);
+  document.write("The weight of use is: " + userweight+ "kilograms");
+}
+
+else {
+  userweight = parseFloat(userweight);
+  alert("else executed");
+  document.write("The weight of use is: " + userweight+ "kilograms");
+
+}

@@ -275,3 +275,13 @@ document.write("There are " + occurence + "occurence (s)  of 'the' " + "<br>");
 
 
 //chap 21-25 completed at this point
+
+
+
+// chapter 26-30 started
+
+var number = +prompt("enter any number including fractional numbers");
+document.write("number: " + number + "<br>");
+document.write("round off value: " + Math.round(number) + "<br>");
+document.write("floor value: " + Math.floor(number) + "<br>");
+document.write("ceil value: " + Math.ceil(number) + "<br>");

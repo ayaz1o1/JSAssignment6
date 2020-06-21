@@ -279,9 +279,17 @@ document.write("There are " + occurence + "occurence (s)  of 'the' " + "<br>");
 
 
 // chapter 26-30 started
-
+// 1. enter any number and round, ceil, floor
 var number = +prompt("enter any number including fractional numbers");
+if ( number > 0 ){
+alert("value is positive");
+
 document.write("number: " + number + "<br>");
 document.write("round off value: " + Math.round(number) + "<br>");
 document.write("floor value: " + Math.floor(number) + "<br>");
 document.write("ceil value: " + Math.ceil(number) + "<br>");
+}
+
+else {
+  alert("value is negative, please enter positive number");
+}

@@ -376,12 +376,25 @@ function   dicefun(){
 var userweight = prompt("enter your weight");
 if (userweight % 1 == 0 ) {
   userweight = parseInt(userweight);
-  document.write("The weight of use is: " + userweight+ "kilograms");
+
+  document.write("The weight of use is: " + userweight+ "kilograms" + "<br>");
+  document.write("The weight of use is: " + Math.floor(userweight)+ "kilograms" + "<br>");
+
+  document.write("The weight of use is: " + Math.round(userweight)+ "kilograms" + "<br>");
+
+  document.write("The weight of use is: " + Math.ceil(userweight)+ "kilograms" + "<br>");
+
 }
 
 else {
   userweight = parseFloat(userweight);
   alert("else executed");
-  document.write("The weight of use is: " + userweight+ "kilograms");
+  document.write("The weight of use is: " + userweight+ "kilograms" +"<br>");
+  
+  document.write("The weight of use is: " + Math.floor(userweight)+ "kilograms" + "<br>");
+
+  document.write("The weight of use is: " + Math.round(userweight)+ "kilograms" + "<br>");
+
+  document.write("The weight of use is: " + Math.ceil(userweight)+ "kilograms" + "<br>");
 
 }

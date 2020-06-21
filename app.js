@@ -355,3 +355,17 @@ function   dicefun(){
 
   }
 }
+
+
+
+// 6 . random number between 1 - 100
+
+document.write("<input onclick='dicefun()' type='button' value='Random number between 1-100'>");
+
+function   dicefun(){
+  // var randomnumber = prompt(" enter any number form 1 to 10");
+  var improvedNum = Math.random() * 100 + 1;
+  var newNum = Math.floor(improvedNum);
+  document.write("Random number between 1 -100 is: " + newNum);
+
+}

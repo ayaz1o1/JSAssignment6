@@ -486,3 +486,15 @@ document.write("Elapsed miliseconds since January 1, 1970: " + oldDate + "<br>")
 document.write("Elapsed minutes since January 1, 1970: " + oldDate/1000*60*60 + "<br>");
 
 
+
+// 7. AM PM
+
+var date1 = new Date();
+date1 = date1.getHours();
+
+if ( date1 < 12){
+  alert("its AM");
+}
+else {
+  alert("its PM");
+}

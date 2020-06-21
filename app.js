@@ -293,3 +293,20 @@ document.write("ceil value: " + Math.ceil(number) + "<br>");
 else {
   alert("value is negative, please enter positive number");
 }
+
+
+// 2. negative float value
+
+var number = parseFloat(prompt("enter negative float value"));
+if (number < 0 && (number % 1 !== 0 ) ){
+  alert("number is negative and float value");
+  document.write(" number: " + number +"<br>");
+  document.write("round off number : " + Math.round(number) +"<br>");
+  document.write(" ceil value of number : " + Math.ceil(number) +"<br>");
+  document.write(" Floor value : " + Math.floor(number) +"<br>");
+
+}
+
+else {
+  alert("number is invalid , please enter negative float value");
+}

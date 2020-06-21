@@ -322,3 +322,16 @@ document.write(" The absolute value of -" + number + " is " + number);
 else {
   document.write(" The absolute value of " + number + " is " + number);
 }
+
+
+
+//4. random dice value
+
+document.write("<input onclick='dicefun()' type='button' value='Dice through'>");
+
+function   dicefun(){
+  // var randomnumber = prompt(" enter any number form 1 to 10");
+  var improvedNum = Math.random() * 10 + 1;
+  var newNum = Math.floor(improvedNum);
+  document.write("Random dice value: " + newNum);
+}

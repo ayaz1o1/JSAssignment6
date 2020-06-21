@@ -443,5 +443,5 @@ alert(date);
 var days = ["Sunday" , "Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" , "Saturday"];
 var day1 = date.getDay();
 alert(day1);
-alert(days[day1].slice(0,3));
+document.write("Today is: " + days[day1].slice(0,3));
 

@@ -459,3 +459,19 @@ if (days[day1] == "Saturday" || days[day1] == "Sunday"){
 else {
   document.write("its not fun day");
 }
+
+
+// 5. alst days of the month
+
+var date = new Date();
+var day1 = date.getDate();
+alert(day1);
+
+if (day1 < 16){
+  document.write("first fifteen days of the month" + "<br>");
+}
+
+else {
+  document.write("Last days of the month" + "<br>");
+
+}

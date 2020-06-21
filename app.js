@@ -475,3 +475,14 @@ else {
   document.write("Last days of the month" + "<br>");
 
 }
+
+
+// 6. minutes since january 1, 1970
+
+var date1 = new Date();
+document.write("Current time " + date1 + "<br>");
+var oldDate = date1.getTime();
+document.write("Elapsed miliseconds since January 1, 1970: " + oldDate + "<br>");
+document.write("Elapsed minutes since January 1, 1970: " + oldDate/1000*60*60 + "<br>");
+
+

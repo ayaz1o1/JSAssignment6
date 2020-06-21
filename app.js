@@ -498,3 +498,10 @@ if ( date1 < 12){
 else {
   alert("its PM");
 }
+
+
+// 8. later Date
+
+
+var laterDate = new Date("Thu Dec 31 2020  00:00:00 GMT+0500 (PKT)");
+document.write("Later Date: " + laterDate);

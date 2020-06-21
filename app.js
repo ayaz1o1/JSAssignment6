@@ -398,3 +398,20 @@ else {
   document.write("The weight of use is: " + Math.ceil(userweight)+ "kilograms" + "<br>");
 
 }
+
+
+//8. secret number random match
+
+var number = prompt("enter any number between 1- 10");
+newNum = Math.random(number)*10 +1 ;
+newNum = Math.round(newNum);
+
+if ( newNum == number){
+  alert(" Congrats! you are the winner");
+}
+
+else {
+  alert("Secret number was: " + newNum);
+  alert("Sorry try again");
+
+}

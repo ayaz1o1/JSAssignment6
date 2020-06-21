@@ -310,3 +310,15 @@ if (number < 0 && (number % 1 !== 0 ) ){
 else {
   alert("number is invalid , please enter negative float value");
 }
+
+// 3. absolute value
+var number = +prompt("enter any number");
+
+if ( number < 0 ){
+  number = number* -1;
+document.write(" The absolute value of -" + number + " is " + number);  
+}
+
+else {
+  document.write(" The absolute value of " + number + " is " + number);
+}

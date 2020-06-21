@@ -445,3 +445,17 @@ var day1 = date.getDay();
 alert(day1);
 document.write("Today is: " + days[day1].slice(0,3));
 
+
+
+//4. its fun day
+
+var date = new Date();
+var days = ["Sunday" , "Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" , "Saturday"];
+var day1 = date.getDay();
+if (days[day1] == "Saturday" || days[day1] == "Sunday"){
+  document.write("Its fun day");
+}
+
+else {
+  document.write("its not fun day");
+}

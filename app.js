@@ -415,3 +415,12 @@ else {
   alert("Sorry try again");
 
 }
+
+
+// chap 31-34
+// 1. show date n time
+
+var date = new Date();
+alert(date);
+document.write(date);
+
